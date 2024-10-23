@@ -1,0 +1,247 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    background-color: rgb(19, 25, 33);
+    width: 99.5vw;
+    height: 3000px;
+}
+p i{
+    color: red;
+}
+.c{
+    padding-top: 10px;
+}
+.logo{
+    width: 120px;
+    height:40px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.logo:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+nav{
+    width: 99.5vw;
+    background-color: rgb(19, 25, 33);
+    height: 60px;
+}
+.geoloc{
+    font-size: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.geoloc:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.searchbar {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.searchbar select {
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.searchbar select:focus {
+    border-color: rgb(255, 153, 0);
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-left: none;
+    width: 600px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-input:focus {
+    border: 5px solid rgb(255, 153, 0);
+    border-radius: 5px; ;
+}
+
+.search-btn {
+    background-color: RGB(255, 153, 0);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: RGB(230, 140, 0);
+}
+
+.searchbar select, .search-input {
+    height: 40px;
+}
+
+.searchbar select:hover, .search-input:hover {
+    border-color: RGB(255, 153, 0);
+}
+
+select.language {
+        background-color: rgb(19, 25, 33);}
+
+.language {
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(19, 25, 33);
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.language:focus {
+    border-color: rgb(255, 153, 0);
+}
+
+.language:hover {
+    border-color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+.returnsdiv{
+    width: 90px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.returnsdiv:hover{
+    transition: 0.5s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.returns{
+    font-weight: bold;
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+}
+.orders{
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.cart{
+    margin-left: 20px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+.cart:hover{
+    transition: 0.5s;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.c1{
+    font-weight: bold;
+    width: 100px;
+    margin-top: 15px;
+}
+#img{
+    position: absolute;
+    left: 0px;
+}
+#img1{
+    width: 99.5vw;
+    height: 500px;
+}
+#img1:hover{
+    cursor: pointer;
+}
+
+.itemsctn{
+    padding-top: 300px;
+}
+.card-body{
+    height: 230px;
+    background-image: url(bgimg.png);
+    background-size: cover;
+}
+
+.card{
+    border: none !important;
+    box-shadow: 4px 4px 8px 4px rgba(255, 255, 255, 0.2) !important;
+}
+
+.card img{
+   width: 100%;
+   height: 200px; 
+}
+.card img{
+    border-radius: 0%;
+    background-image: url(bgimg.png);
+    background-size: cover;
+}
+h4{
+    border-radius: 0%;
+    margin: 0 !important;
+    background-image: url(bgimg.png);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: white !important;
+    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ccc;
+}
+.cardtest{
+    position: relative;
+}
+.row .card :hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+}
+button{
+    background-color: RGB(255, 153, 0);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn1{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.btn2{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+button:hover{
+    background-color: RGB(230, 140, 0);
+}
+
+
